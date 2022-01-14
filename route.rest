@@ -1,0 +1,18 @@
+GET http://localhost:3000/facts
+
+###
+
+GET http://localhost:3000/facts/61e0d087680cb7baa2a00f24
+
+###
+
+POST http://localhost:3000/facts
+Content-Type: application/json
+
+{
+    "fact": "Louth is the smallest county in Ireland"
+}
+
+###
+
+DELETE http://localhost:3000/facts/61e0d6842fc53d0014028da5
